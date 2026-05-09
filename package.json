@@ -1,0 +1,20 @@
+{
+  "name": "mahosh-fragrance",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Luxury full-stack perfume brand website with Next.js frontend and Express/MongoDB backend.",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace frontend\" \"npm run dev --workspace backend\"",
+    "install:all": "npm install --workspaces",
+    "build": "npm run build --workspace frontend",
+    "start": "npm run start --workspace backend",
+    "lint": "npm run lint --workspace frontend && npm run lint --workspace backend"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
