@@ -1,47 +1,51 @@
 export const featuredProducts = [
   {
-    name: 'Noir Saffron',
-    category: 'Extrait de Parfum',
-    description: 'Smoked saffron, black rose, amber resin, and polished cedar.',
-    notes: ['Saffron', 'Rose', 'Amber'],
-    price: 245,
+    name: 'Mahosh Rose Oud',
+    category: 'Eau de Parfum',
+    description: 'Luxury rose and oud perfume with long-lasting fragrance.',
+    notes: ['Rose', 'Oud', 'Amber'],
+    price: 4500,
     rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=900&q=85'
+    image: 'https://i.ibb.co/YOUR-IMAGE-LINK/perfume.jpg'
   },
   {
-    name: 'Velvet Oud',
-    category: 'Eau de Parfum',
-    description: 'Creamy oud, vanilla smoke, bergamot, and warm suede.',
-    notes: ['Oud', 'Vanilla', 'Suede'],
-    price: 198,
+    name: 'Mahosh Musk',
+    category: 'Perfume Spray',
+    description: 'Soft musk fragrance for daily elegant wear.',
+    notes: ['Musk', 'Vanilla', 'Floral'],
+    price: 3500,
     rating: 4.8,
-    image: 'https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=900&q=85'
+    image: 'https://i.ibb.co/YOUR-IMAGE-LINK/perfume2.jpg'
   },
   {
-    name: 'Maison Bloom',
-    category: 'Eau de Parfum',
-    description: 'Jasmine absolute, pear nectar, clean musk, and sandalwood.',
-    notes: ['Jasmine', 'Pear', 'Musk'],
-    price: 176,
-    rating: 4.7,
-    image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=85'
+    name: 'Mahosh Oud Noir',
+    category: 'Luxury Attar',
+    description: 'Deep oud perfume with amber and woody notes.',
+    notes: ['Oud', 'Amber', 'Wood'],
+    price: 5500,
+    rating: 4.9,
+    image: 'https://i.ibb.co/YOUR-IMAGE-LINK/perfume3.jpg'
   }
 ];
 
 export const testimonials = [
   {
-    name: 'Amara V.',
-    location: 'Dubai',
-    quote: 'Noir Saffron feels expensive without shouting. It stays beautiful for the entire evening.'
+    name: 'Ayesha K.',
+    location: 'Lahore',
+    quote: 'Fragrance bohat long lasting hai aur packaging premium feel deti hai.'
   },
   {
-    name: 'Julien R.',
-    location: 'Paris',
-    quote: 'The packaging, the drydown, the projection; everything feels finished and intentional.'
+    name: 'Sara M.',
+    location: 'Karachi',
+    quote: 'Mahosh Rose Oud meri favorite fragrance ban gayi hai.'
   },
   {
-    name: 'Maya S.',
-    location: 'New York',
+    name: 'Hina A.',
+    location: 'Islamabad',
+    quote: 'Best perfume quality, delivery bhi fast thi.'
+  }
+];
+
     quote: 'Velvet Oud became my signature in one week. Warm, polished, and unforgettable.'
   }
 ];
