@@ -86,14 +86,16 @@ export default function HomePage() {
                     <Star size={16} fill="currentColor" /> {product.rating}
                   </span>
                 </div>
-                <button className="button full">
-                  <ShoppingBag size={18} /> Add to Cart
-                </button>
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
+                <a
+  className="button full"
+  href={`https://wa.me/923054557872?text=${encodeURIComponent(
+    `Assalam o Alaikum, I want to order ${product.name}. Price: Rs ${product.price}`
+  )}`}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <ShoppingBag size={18} /> Order on WhatsApp
+</a>
 
       <section id="about" className="section aboutSection">
         <div className="container aboutGrid">
