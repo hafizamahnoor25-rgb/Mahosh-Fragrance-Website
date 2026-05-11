@@ -158,12 +158,16 @@ export default function HomePage() {
               Email address
             </label>
             <input id="email" type="email" placeholder="your@email.com" />
-            <button className="button primary" type="submit">
-              Subscribe <Mail size={18} />
-            </button>
-          </form>
-        </div>
-      </section>
+           <a
+            className="button full"
+  href={`https://wa.me/923054557872?text=${encodeURIComponent(
+    `Assalam o Alaikum, I want to order ${product.name}. Price: Rs ${product.price}`
+  )}`}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <ShoppingBag size={18} /> Order on WhatsApp
+</a>
 
       <section id="contact" className="section contactSection">
         <div className="container contactGrid">
